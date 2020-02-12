@@ -6,6 +6,11 @@
 #Print LIST in descending order
 #Print max digit and it occurence
 
-UserNumbers = input("Please enter space seperated positive numbers: ")
-UserNumberList = UserNumbers.split(" ")
-print(UserNumberList)
+Output = []
+
+UserNumbers = input("Please enter positive numbers: ")
+UserNumbers = UserNumbers.replace(" ","")
+Output = list(UserNumbers)
+list.sort(Output, reverse = True)
+
+print(Output)

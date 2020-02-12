@@ -6,4 +6,4 @@ UserInput = input("Please eneter a string: ")
 Iterate = UserInput[0]
 Iterations = int(UserInput.count(Iterate))
 print("\'{}\' has been repeated {} times".format(Iterate,Iterations))
-print(UserInput.replace(Iterate,"*"))
+print(Iterate+UserInput[1:].replace(Iterate,"*"))

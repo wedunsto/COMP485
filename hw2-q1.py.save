@@ -1,0 +1,10 @@
+#William  Dunston
+#Homework 2: Question 1
+
+diamond = int(input("Please enter an odd integer:"))#Used to collect the odd integer
+start = stop = 7
+star = "
+
+for stars in range(diamond):
+	print(star)
+	star += "**"
